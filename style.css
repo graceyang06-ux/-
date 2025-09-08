@@ -1,0 +1,168 @@
+/* Global.css 내용 */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  height: 100%;
+}
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+/* Reveal.js 슬라이드 기본 설정 */
+.reveal .slides section {
+  padding: 0;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0 !important;
+}
+
+/* --- 슬라이드 공통 스타일 --- */
+.desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.desktop .overlap-wrapper {
+  width: 1280px;
+  height: 960px;
+  background-color: inherit;
+}
+
+.desktop .overlap {
+  position: relative;
+  width: 1188px;
+  height: 890px;
+  top: 29px;
+  left: 27px;
+}
+
+.desktop .overlap-group, .desktop .overlap-group-2 {
+  position: absolute;
+  width: 1188px;
+  height: 890px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .overlap-group-2 {
+    width: 750px;
+    height: 850px;
+    top: 36px;
+    left: 480px;
+}
+
+.desktop .div {
+  position: absolute;
+  width: 550px;
+  height: 120px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 50px;
+}
+
+.desktop .text-wrapper {
+  width: 90px;
+  top: 40px;
+  left: 370px;
+  color: #000000;
+  font-size: 35px;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-2 {
+  width: 300px;
+  top: 30px;
+  left: 70px;
+  color: #440000;
+  font-size: 55px;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .div-2 {
+  position: absolute;
+  width: 580px;
+  height: 550px;
+  top: 0;
+  left: 140px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.desktop .view {
+  position: absolute;
+  width: 650px;
+  height: 450px;
+  top: 380px;
+  left: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.desktop .state-pressed {
+  width: 150px;
+  top: 280px;
+  left: 490px;
+  position: absolute;
+  height: 75px;
+}
+
+.desktop .state-hover {
+  width: 155px;
+  top: 270px;
+  left: 20px;
+  position: absolute;
+  height: 75px;
+}
+
+.desktop .state-default {
+  width: 155px;
+  top: 60px;
+  left: 350px;
+  position: absolute;
+  height: 75px;
+}
+
+.desktop .view-2 {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  top: 200px;
+  left: 120px;
+  background-color: #d9d9d9;
+  border-radius: 160px;
+}
+
+/* --- 각 슬라이드별 배경색 지정 --- */
+.slide1 .desktop .overlap-wrapper { background-color: #7e95df; } /* 파란색 */
+.slide2 .desktop .overlap-wrapper { background-color: #df7e80; } /* 붉은색 */
+.slide3 .desktop .overlap-wrapper { background-color: #7edfa2; } /* 녹색 */
+.slide4 .desktop .overlap-wrapper { background-color: #dfd17e; } /* 노란색 */
+.slide5 .desktop .overlap-wrapper { background-color: #a57edf; } /* 보라색 */
+.slide6 .desktop .overlap-wrapper { background-color: #df9d7e; } /* 주황색 */
+.slide7 .desktop .overlap-wrapper { background-color: #7ed4df; } /* 하늘색 */
+.slide8 .desktop .overlap-wrapper { background-color: #b2b2b2; } /* 회색 */
